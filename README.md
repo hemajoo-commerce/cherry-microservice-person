@@ -2,7 +2,7 @@
 
 ## Description
 
-The **Cherry Person microservice** project is part of the **Hemajoo's Commerce, Cherry** solution providing the *microservice* responsible to handle and manage the persons and its underlying entities (email address, postal address and phone number).
+The `Cherry Person microservice` project is part of the **Hemajoo's Commerce, Cherry** solution providing the person *microservice*.
 
 ## Status
 
@@ -21,49 +21,55 @@ The **Cherry Person microservice** is a Java Maven multi-modules project with th
 
 | Module                                   | Description                                                           |
 |------------------------------------------|:----------------------------------------------------------------------|
-| `cherry-person-microservice-commons`     | Contain common entities.                                              |
+| `cherry-person-microservice-commons`     | Contain common entities for the person area.                          |
 | `cherry-person-microservice-model`       | Contain the person data model entities.                               |
-| `cherry-person-microservice-persistence` | Contain the persistence entities.                                     |
-| `cherry-person-microservice-service`     | Contain the services for the persons.                                 |
-| `cherry-person-microservice-rest`        | Contain the REST controllers for the persons.                         |
+| `cherry-person-microservice-persistence` | Contain the person persistence entities.                              |
+| `cherry-person-microservice-service`     | Contain the person business services.                                 |
+| `cherry-person-microservice-rest`        | Contain the person REST controllers.                                  |
 | `cherry-person-microservice-coverage`    | Contain the aggregation of the code coverage reports for each module. |
 
-## Description
-
-This project is part of the `Hemajoo Commerce - Cherry` solution which is a full stack Java microservices e-commerce solution.
 
 ## Architecture
 
 ### See: [Cherry Person microservice - Architecture](./doc/architecture.md)
 
+
 ## Infrastructure
 
 ### See: [Cherry Person microservice - Infrastructure](./doc/infrastructure.md)
+
 
 ## DevOps
 
 ### See: [Cherry Person microservice - DevOps](./doc/devops.md)
 
+
 ## REST endpoints
 
 ### See: [Cherry Person microservice - REST](./doc/rest.md)
+
 
 ## Release History
 
 ### See: [Cherry Person microservice - Release History](./doc/release_history.md)
 
+
 ## Documentation
 
 ### See: [Cherry Person microservice - Documentation](./doc/documentation.md)
+
 
 ## Processes
 
 ### See: [Cherry Person microservice - Processes](./doc/processes.md)
 
+
 ## Notes
 
 ### See: [Cherry Person microservice - Notes](./doc/notes.md)
 
+
 ## Links
 
 ### See: [Cherry Person microservice - Links](./doc/links.md)
+
